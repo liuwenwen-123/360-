@@ -1,0 +1,70 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.lww",
+    "module": "jiaguplugin",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1.1",
+      "buildId": "gzowd4zxrfc65fob5tyvhfpsfi"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "jiaguplugin-1.0.1.jar",
+          "url": "jiaguplugin-1.0.1.jar",
+          "size": 8583,
+          "sha512": "3fb567b3562c2ac2384ba274e966dcbf4cb79420850efe9fa5a5c260d4e1552aee435ea65bbe6cc41bf14fc3fce50995bae8693cc0846f523f6c599c27933ff7",
+          "sha256": "4a734982c0fef939e317806b59e647ce155c0b5612a007dbbbafae8abc32589b",
+          "sha1": "01d4322d3f8ddae09a4e1b2e05c14a43499629a3",
+          "md5": "00bd6cedc068c72ac172c3ef70a93baf"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "4.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jiaguplugin-1.0.1.jar",
+          "url": "jiaguplugin-1.0.1.jar",
+          "size": 8583,
+          "sha512": "3fb567b3562c2ac2384ba274e966dcbf4cb79420850efe9fa5a5c260d4e1552aee435ea65bbe6cc41bf14fc3fce50995bae8693cc0846f523f6c599c27933ff7",
+          "sha256": "4a734982c0fef939e317806b59e647ce155c0b5612a007dbbbafae8abc32589b",
+          "sha1": "01d4322d3f8ddae09a4e1b2e05c14a43499629a3",
+          "md5": "00bd6cedc068c72ac172c3ef70a93baf"
+        }
+      ]
+    }
+  ]
+}

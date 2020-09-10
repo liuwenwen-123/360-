@@ -1,0 +1,61 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.lww",
+    "module": "jiaguplugin",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1.1",
+      "buildId": "ifahllupnvayrjdpnasnm5fvke"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "jiaguplugin-1.0.jar",
+          "url": "jiaguplugin-1.0.jar",
+          "size": 2142,
+          "sha512": "a5796426053f81f9f0c8ccc05e3086174d5b99ff34d86cb9216d4668cadb230a92ff606fe152570d077376df3926324139e5c6fe33d370bf1596181e369b0962",
+          "sha256": "776988695b2542072246c7d0bee4f39b303358b1e3143eaad31130e3537d8d72",
+          "sha1": "af4b659f560d6c0257d5a163ba332027bf4438cc",
+          "md5": "a9ca5be283f1f8f47038252e4a74ce33"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jiaguplugin-1.0.jar",
+          "url": "jiaguplugin-1.0.jar",
+          "size": 2142,
+          "sha512": "a5796426053f81f9f0c8ccc05e3086174d5b99ff34d86cb9216d4668cadb230a92ff606fe152570d077376df3926324139e5c6fe33d370bf1596181e369b0962",
+          "sha256": "776988695b2542072246c7d0bee4f39b303358b1e3143eaad31130e3537d8d72",
+          "sha1": "af4b659f560d6c0257d5a163ba332027bf4438cc",
+          "md5": "a9ca5be283f1f8f47038252e4a74ce33"
+        }
+      ]
+    }
+  ]
+}
